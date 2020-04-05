@@ -1,0 +1,15 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Avanade Apps",
+    //"id": "8a8f85f4-690d-41e9-85bd-829d983bebfd",
+    "id": "8a8f85f4-690d-41e9-85bd-829d983bebfe",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+    
+  },
+  "paths": {
+    "zippedPackage": "solution/avanadeApp.sppkg"
+  }
+}

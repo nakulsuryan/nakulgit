@@ -1,0 +1,10 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "avanadeapps",
+    "libraryId": "8a8f85f4-690d-41e9-85bd-829d983bebfd",
+    "environment": "spo",
+    "isCreatingSolution": false,
+    "componentType": "webpart"
+  }
+}

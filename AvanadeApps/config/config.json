@@ -1,0 +1,44 @@
+{
+    "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+    "version": "2.0",
+    "bundles": {
+        "tabbed-ui-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/tabbedUi/TabbedUiWebPart.js",
+                "manifest": "./src/webparts/tabbedUi/TabbedUiWebPart.manifest.json"
+            }]
+        },
+        "accordion-app-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/accordionApp/AccordionAppWebPart.js",
+                "manifest": "./src/webparts/accordionApp/AccordionAppWebPart.manifest.json"
+            }]
+        },
+        "roadmap-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/roadmap/RoadmapWebPart.js",
+                "manifest": "./src/webparts/roadmap/RoadmapWebPart.manifest.json"
+            }]
+        },
+        "ava-dictionary-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/avaDictionary/AvaDictionaryWebPart.js",
+                "manifest": "./src/webparts/avaDictionary/AvaDictionaryWebPart.manifest.json"
+            }]
+        }
+    },
+    "externals": {
+        "angular": {
+            "path": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.min.js",
+            "globalName": "angular"
+        },
+        "jquery": "node_modules/jquery/dist/jquery.min.js"
+    },
+    "localizedResources": {
+        "TabbedUiWebPartStrings": "lib/webparts/tabbedUi/loc/{locale}.js",
+        "AccordionAppWebPartStrings": "lib/webparts/accordionApp/loc/{locale}.js",
+        "RoadmapWebPartStrings": "lib/webparts/roadmap/loc/{locale}.js",
+        "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+        "AvaDictionaryWebPartStrings": "lib/webparts/avaDictionary/loc/{locale}.js"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "455c2c0c-1b07-4da1-89b5-e6578fc9ffe4",
+  "alias": "AvanadeTabbedUiWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json TabbedUiWebPart
+  "version": "*",
+  "manifestVersion": 2,
+  //https://assets.contoso.com/weather.png
+//"officeFabricIconFontName": "Page", 
+//"iconImageUrl": "https://kavita15.sharepoint.com/sites/hr/Documents/tab_icon2.png",
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "AvanadeApps" },
+    "title": { "default": "Tab" },
+    "description": { "default": "TabbedUI description" },
+    "officeFabricIconFontName": "Section",
+    //"iconImageUrl": "./Images/TabbedUIicon.jpg",
+    "properties": {
+      "groupVal": "",
+      "layout":"Horizontal",
+      "listName":"",
+      "title":"",
+      "titleImageUrl":"",
+      "tabOrder":"",
+      "description":"",
+      "group":""
+
+    }
+  }]
+}
